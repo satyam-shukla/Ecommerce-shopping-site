@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 1vw;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+.LocateTxt{
+    font-size: .8rem;
+    color: #ED3897;
+
+}
+.DescHeader{
+    font-size: .8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.ForInr{
+    outline: none;
+    border: none;
+    font-size: .8rem;
+    background-color: black;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.headerlogo{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 0 0 0 2rem;
+
+}
+.headerlogo span{
+    color: #E83647;
+
+}
+
+.searchBar input{
+    outline: none;
+    color: #CBCBCB;
+    font-size: .7rem;
+    border: none;
+    width: 90%;
+    cursor: pointer;
+}
+.searchBar img{
+    width: .8rem;
+    height: auto;
+}
+.searchBar{
+    padding: .5rem 1rem ;
+    border: 1px solid #E5E5E5;
+    cursor: pointer;
+}
+
+.accounts{
+    font-size: 1rem;
+    color: #E5E5E5;
+}
+.accounts img{
+    width: 1.2rem;
+}
+.variTies{
+    font-size: .8rem;
+    padding: 0.5rem 2rem 0 0;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.reds{
+    color: #E83647;
+}
+.variTies li:hover{
+    color: #E83647;
+}
+.headerContainer{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background-color: white;
+}
+
+
+
+.paddingMIN{
+    padding: 0 2rem;
+}
+.BigImg img{
+    width: 100%;
+    height: auto;
+}
+.LinksHome span{
+    font-size: .8rem;
+    cursor: pointer;
+    color: #797979;
+}
+.LinksHome{
+    align-self: baseline;
+}
+.popularProducts{
+    border: 1px solid #C2C2C2;
+    font-size: .8rem;
+}
+.popularProducts select{
+    outline: none;
+    border: none;   
+    font-size: .8rem;
+    color: #C2C2C2;
+}
+.popularProducts > select > option > span{
+    font-size: 1rem;
+    color: black;
+}
+.ForSup{
+    color: #797979;
+    font-size: .8rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
+.products h1{
+    font-size: 1rem;
+    color: #212121;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+}
+.sizesBtns{
+    padding: .3rem .5rem;
+    font-size: .8rem;
+    display: block;
+    color: #212121;
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+}
+.ForHR{
+    width: 100%;
+    border: 1.5px solid black;
+}
+
+.cardsContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4rem;
+}
+.cards img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.cardTxt h5{
+    font-size: 1rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    padding: .5rem 0 0 0;
+}
+.cardTxt p{
+    font-size: .8rem;
+    padding: 0  6rem 0 0;
+    margin: 0;
+}
+.currentPrice{
+    font-size: .9rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+}
+.previousPrice{
+    font-size: .9rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    color: #C2C2C2;
+}
+.DisOn{
+    padding: .5rem .5rem;
+    background-color: #E83647;
+    font-size: .8rem;
+    color: #FFFFFF;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.checkBoxes{
+    height: 20rem;
+    width: auto;
+    overflow-y: scroll;
+}
+.checkBoxes::-webkit-scrollbar {
+    display: none;
+}
+.Gender h5,
+.categorySearch h5{
+    font-size: .8rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    padding: .5rem 0;
+}
+
+.categorySearch input{
+    font-size: .7rem;
+    padding: .2rem;
+    width: 70%;
+}
+.categorySearch{
+    padding: 0 0 .8rem 0;
+}
+.allGenderContainer,
+.checkBoxes{
+    font-size: .9rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+}
+.allGenderContainer span,
+.checkBoxes span{
+    color: #797979;
+    font-size: .8rem;
+}
+.SeeAll{
+    font-size: .7rem;
+    color: #E83647;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.minipriceInput input,
+.maxpriceInput input{
+    width: 7rem;
+}
+.maxPrice span,
+.miniPrice span{
+    align-self: end;
+}
+.redHR{
+    border: 2px solid red;
+    width: 90%;
+}
+
+.leftSide,
+.rightSide{
+    padding: .4rem .4rem;
+    background-color: red;
+    border-radius: 50%;
+}
+.priSliderLine{
+    margin-left: 1.2rem;
+}
+.forTopM{
+    margin-bottom: 8rem;
+}
+
+.readyToShip{
+    font-size: .9rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+
+}
+.readyToShip span{
+    color: #797979;
+}
+
+.conss{
+    height: 1000vh;
+}
+.footerTable{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr;
+}
+
+.aboutus h5,
+.quicklinks h5,
+.customercare h5,
+.contactus h5,
+.popupshop h5{
+    font-size: 1rem;
+    color: #212121;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.aboutus ul,
+.quicklinks ul,
+.customercare ul,
+.contactus ul,
+.popupshop ul{
+    font-size: .8rem;
+    display: flex; 
+    flex-direction: column;
+    gap: .5rem;
+    color: #212121;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.sitesContact img{
+    width: 2rem;
+    height: 1.5rem;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+
+input[name="EmailContacts"] {
+	accent-color: #E83647;
+    cursor: pointer;
+}
+
+.EmailAddres{
+    border: 1px solid #CCCCCC;
+}
+.EmailAddres p{
+    background-color: #212121;
+    color: #fff;
+    padding: .5rem;
+    font-size:  .7rem;
+    align-self: center;
+    cursor: pointer;
+}
+.EmailAddres input{
+    outline: none;
+    border: none;
+    padding: .5rem;
+    font-size: .7rem;
+    cursor: pointer;
+    width: 10rem;
+}
+
+.appGoogle img{
+ width: 8rem;
+}
+.Timings{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.customerSupportTxt span,
+.DesignersTxt span,
+.interShipping span{
+    font-size: .8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.textImg img,
+.txtDesigner img,
+.txtShippingI img{
+    width: 2rem;
+    height: auto;
+}
+.payments{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.centerDiv h5{
+    font-size: 1.1rem;
+    color: #212121;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.centerpyment p,
+.centerDiv p{
+    font-size: .8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.paymentImgs img{
+    width: 3rem;
+    height: auto;
+}
+.pymentInputs{
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+}
+.pymentInputs input{
+    border: none;
+    outline: none;
+    padding: 0 .5rem ;
+    color: #B3B3B3;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.pymentInputs p{
+    color: #fff;
+    background-color: black;
+    padding: .5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+table, th, td {
+    border: 1px solid black;
+}

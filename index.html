@@ -1,0 +1,934 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- title -->
+    <title>Shoppind</title>
+</head>
+
+<body>
+    <!-- header section start -->
+    <div class="container-fluid position-relative p-0">
+        <div class="headerContainer shadow-sm">
+            <div class="row bg-dark text-white">
+                <div class="col-11 text-center ">
+                    <p class="m-0 DescHeader"><span class="LocateTxt">LOCATE</span> OUR STORES FOR AN AMAZING EXPERIENC
+                    </p>
+                </div>
+                <div class="col-1 d-flex align-items-center justify-content-center">
+                    <select class="ForInr" aria-label="Default select example">
+                        <option selected>INR</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center  py-2">
+                <div class="col-3 d-flex align-items-center headerlogo ">Shopp <span>ind</span>
+                </div>
+                <div class="col-9 d-flex flex-column">
+                    <div class="fristContainer col-9 d-flex align-items-center justify-content-between gap-5">
+                        <div class="searchBar col-5 d-flex align-items-center w-75 gap-2">
+                            <img src="./Shoppind_Assets/Shoppind_Assets/search.svg" alt="">
+                            <input type="text" placeholder="Search for designers, products and categories">
+                        </div>
+                        <div class="accounts col-4 d-flex align-items-center justify-content-end gap-4 w-50 ">
+                            <span class="mt-2">LOGIN</span>
+                            <span class="mt-2">BLOG</span>
+                            <span><img src="./Shoppind_Assets/Shoppind_Assets/cart-bag.svg" alt=""></span>
+                            <span><img src="./Shoppind_Assets/Shoppind_Assets/heart.svg" alt=""></span>
+                        </div>
+                    </div>
+                    <div class="lastContainer">
+                        <ul class="d-flex align-items-center justify-content-end gap-4 list-unstyled variTies m-0">
+                            <li>WHAT’S NEW <span class="reds">(+28)</span></li>
+                            <li>WOMEN</li>
+                            <li>SAREE STUDIO</li>
+                            <li>WEDDING</li>
+                            <li>PRET</li>
+                            <li>MEN</li>
+                            <li>KIDS</li>
+                            <li>JEWELLERY</li>
+                            <li>ACCESSORIES</li>
+                            <li>HOME</li>
+                            <li>CURATIONS</li>
+                            <li>READY TO SHIP</li>
+                            <li><span class="reds">EOSS</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mainContainer">
+            <div class="row">
+                <div class="col-12 paddingMIN BigImg">
+                    <img src="./Shoppind_Assets/Shoppind_Assets/hero-section.png" alt="">
+                </div>
+                <div class="col-12 paddingMIN d-flex align-items-center ">
+                    <div class="col-3 LinksHome">
+                        <span>Home > Listing > EOSS</span>
+                    </div>
+                    <div class="col-9 d-flex align-items-center justify-content-between my-3">
+                        <div class="products ">
+                            <h5>EOSS <sup class="ForSup">(22539 products)</sup></h5>
+                        </div>
+                        <div class="popularProducts ">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Sort by : <span>Popular &nbsp; &nbsp;&nbsp; &nbsp;</span> </option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 paddingMIN d-flex align-items-center">
+                    <div class="col-3 d-flex align-items-center gap-2">
+                        <button class="sizesBtns">XS</button>
+                        <button class="sizesBtns">S</button>
+                        <button class="sizesBtns">M</button>
+                        <button class="sizesBtns">L</button>
+                        <button class="sizesBtns">XL</button>
+                    </div>
+                    <div class="col-9 ">
+                        <hr class="ForHR">
+                    </div>
+                </div>
+                <div class="col-12 paddingMIN d-flex align-items-center">
+                    <div class="col-3 d-flex flex-column align-items-start forTopM">
+                        <div class="readyToShip mb-5">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Ready to ship <span>(5662)</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="checkBoxHeader">
+                            <div class="categorySearch">
+                                <h5>CATEGORY</h5>
+                                <input type="text" placeholder="Search" class="CheckSearchBar">
+                            </div>
+                            <div class="checkBoxes">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Earrings <span>(1481)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Dresses <span>(1183)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Kurta Set <span>(1089)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Lehenga <span>(1071)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Sarees <span>(966)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Anarkali Set <span>(798)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Tunics <span>(772)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Necklaces <span>(743)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Kurta <span>(682)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Jacket <span>(682)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Blankets <span>(4329)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Modcloth <span>(789)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Camera <span>(6989)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Laptop <span>(4556)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Redmi-9 <span>(907)</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="SeeAll">SEE ALL</p>
+                        </div>
+                        <div class="Gender mt-4">
+                            <h5>GENDER</h5>
+                            <div class="allGenderContainer">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Women (16457)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Men <span>(597)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Boys <span>(597)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Girls <span>(36)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Unisex <span>(36)</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkBoxHeader mt-4">
+                            <div class="categorySearch">
+                                <h5>DESIGNER</h5>
+                                <input type="text" placeholder="Search" class="CheckSearchBar">
+                            </div>
+                            <div class="checkBoxes">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Soup By Sougat Paul <span>(503)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Urvashi Kaur <span>(467)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Auraa Trends<span>(437)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Nikasha <span>(400)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Pink Peacock Couture <span>(966)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Aster <span>(306)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Tunics <span>(772)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Necklaces <span>(743)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Rocky Star <span>(286)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Mandira Wirk <span>(242)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Mandira Wirk <span>(224)</span>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Modcloth <span>(789)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Camera <span>(6989)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Laptop <span>(4556)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Redmi-9 <span>(907)</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="SeeAll">SEE ALL</p>
+                        </div>
+                        <div class="checkBoxHeader mt-4">
+                            <div class="categorySearch">
+                                <h5>SIZE</h5>
+                                <input type="text" placeholder="Search" class="CheckSearchBar">
+                            </div>
+                            <div class="checkBoxes">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        XS <span>(8429)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        S<span>(12135 )</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        M<span>(12134)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        L <span>(121307)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        XL <span>(11114)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        XXL <span>(9461)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        3XL <span>(7789)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        4XL <span>(6392)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        5XL <span>(5254)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        6XL <span>(242)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        LG-1 <span>(224)</span>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        LLG-2 <span>(789)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Camera <span>(6989)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Laptop <span>(4556)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Redmi-9 <span>(907)</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="SeeAll">SEE ALL</p>
+                        </div>
+                        <div class="checkBoxHeader mt-4">
+                            <div class="categorySearch">
+                                <h5>COLOR</h5>
+                                <input type="text" placeholder="Search" class="CheckSearchBar">
+                            </div>
+                            <div class="checkBoxes">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        White <span>(2111)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Gold <span>(2084)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Blush Pink<span>(1298)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Red <span>(400)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Green <span>(966)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Grey <span>(306)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Yellow <span>(772)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Aqua <span>(743)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Orange <span>(286)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Pink <span>(242)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Red <span>(224)</span>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Modcloth <span>(789)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Camera <span>(6989)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Laptop <span>(4556)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Redmi-9 <span>(907)</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="SeeAll">SEE ALL</p>
+                        </div>
+                        <div class="Gender mt-4">
+                            <h5>DISCOUNT</h5>
+                            <div class="allGenderContainer">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        0% - 20% <span>(2955)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        21% - 30% <span>(10506)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        31% - 40% <span>(1909)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        41% - 50% <span>(36)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        51% - 60%<span>(248)</span>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Above - 60%<span>(143)</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="priceSlider mt-4 ">
+                            <h5>Price</h5>
+                            <div class="pricesContainer d-flex align-items-center justify-content-center gap-4">
+                                <div class="miniPrice d-flex gap-2">
+                                    <span>&#8377</span>
+                                    <div class="minipriceInput d-flex  flex-column gap-1">
+                                        <p class="m-0 ">Min</p>
+                                        <input type="text" min="545" placeholder="545">
+                                    </div>
+                                </div>
+                                <div class="maxPrice d-flex gap-2">
+                                    <span>&#8377</span>
+                                    <div class="maxpriceInput d-flex flex-column gap-1">
+                                        <p class="m-0">Max</p>
+                                        <input type="text" min="899900" placeholder="8999900">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="priSliderLine ">
+                                <div class="d-flex align-items-center ">
+                                    <span class="leftSide"></span>
+                                    <hr class="redHR">
+                                    <span class="rightSide"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="cardsContainer">
+                            <div class="card1 cards">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/7e94f05b-5c96-4b40-9213-89350f5873071582700961593-Vaamsi-Women-Sarees-2261582700960929-1.png"
+                                    alt="">
+                                <div class="cardTxt">
+                                    <h5 class="m-0">SHYAM NARAYAN PRASAD</h5>
+                                    <p class="AboutSaree">Navy Blue & Red Thread Embroidered Anarkali Set</p>
+                                    <div class="price d-flex align-items-center gap-2">
+                                        <span class="currentPrice">&#8377 15,500</span>
+                                        <span class="previousPrice"><del>&#8377 23500</del></span>
+                                        <span class="DisOn">35% OFF</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card1 cards">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/7c8e0d0e-4563-482a-b54c-bee48a027b771600841297585-Inddus-Women-Sarees-3061600841295729-1.png"
+                                    alt="">
+                                <div class="cardTxt">
+                                    <h5 class="m-0">SHYAM NARAYAN PRASAD</h5>
+                                    <p class="AboutSaree">Navy Blue & Red Thread Embroidered Anarkali Set</p>
+                                    <div class="price d-flex align-items-center gap-2">
+                                        <span class="currentPrice">&#8377 15,500</span>
+                                        <span class="previousPrice"><del>&#8377 23500</del></span>
+                                        <span class="DisOn">35% OFF</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card1 cards">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/last.png" alt="">
+                                <div class="cardTxt">
+                                    <h5 class="m-0">SHYAM NARAYAN PRASAD</h5>
+                                    <p class="AboutSaree">Navy Blue & Red Thread Embroidered Anarkali Set</p>
+                                    <div class="price d-flex align-items-center gap-2">
+                                        <span class="currentPrice">&#8377 15,500</span>
+                                        <span class="previousPrice"><del>&#8377 23500</del></span>
+                                        <span class="DisOn">35% OFF</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card1 cards">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/2-1st.png" alt="">
+                                <div class="cardTxt">
+                                    <h5 class="m-0">SHYAM NARAYAN PRASAD</h5>
+                                    <p class="AboutSaree">Navy Blue & Red Thread Embroidered Anarkali Set</p>
+                                    <div class="price d-flex align-items-center gap-2">
+                                        <span class="currentPrice">&#8377 15,500</span>
+                                        <span class="previousPrice"><del>&#8377 23500</del></span>
+                                        <span class="DisOn">35% OFF</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card1 cards">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/2-2nd.png" alt="">
+                                <div class="cardTxt">
+                                    <h5 class="m-0">SHYAM NARAYAN PRASAD</h5>
+                                    <p class="AboutSaree">Navy Blue & Red Thread Embroidered Anarkali Set</p>
+                                    <div class="price d-flex align-items-center gap-2">
+                                        <span class="currentPrice">&#8377 15,500</span>
+                                        <span class="previousPrice"><del>&#8377 23500</del></span>
+                                        <span class="DisOn">35% OFF</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card1 cards">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/2-3rd.png" alt="">
+                                <div class="cardTxt">
+                                    <h5 class="m-0">SHYAM NARAYAN PRASAD</h5>
+                                    <p class="AboutSaree">Navy Blue & Red Thread Embroidered Anarkali Set</p>
+                                    <div class="price d-flex align-items-center gap-2">
+                                        <span class="currentPrice">&#8377 15,500</span>
+                                        <span class="previousPrice"><del>&#8377 23500</del></span>
+                                        <span class="DisOn">35% OFF</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card1 cards">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/3-3rd.png" alt="">
+                                <div class="cardTxt">
+                                    <h5 class="m-0">SHYAM NARAYAN PRASAD</h5>
+                                    <p class="AboutSaree">Navy Blue & Red Thread Embroidered Anarkali Set</p>
+                                    <div class="price d-flex align-items-center gap-2">
+                                        <span class="currentPrice">&#8377 15,500</span>
+                                        <span class="previousPrice"><del>&#8377 23500</del></span>
+                                        <span class="DisOn">35% OFF</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card1 cards">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/4-1st.png" alt="">
+                                <div class="cardTxt">
+                                    <h5 class="m-0">SHYAM NARAYAN PRASAD</h5>
+                                    <p class="AboutSaree">Navy Blue & Red Thread Embroidered Anarkali Set</p>
+                                    <div class="price d-flex align-items-center gap-2">
+                                        <span class="currentPrice">&#8377 15,500</span>
+                                        <span class="previousPrice"><del>&#8377 23500</del></span>
+                                        <span class="DisOn">35% OFF</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card1 cards">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/4-2nd.png" alt="">
+                                <div class="cardTxt">
+                                    <h5 class="m-0">SHYAM NARAYAN PRASAD</h5>
+                                    <p class="AboutSaree">Navy Blue & Red Thread Embroidered Anarkali Set</p>
+                                    <div class="price d-flex align-items-center gap-2">
+                                        <span class="currentPrice">&#8377 15,500</span>
+                                        <span class="previousPrice"><del>&#8377 23500</del></span>
+                                        <span class="DisOn">35% OFF</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card1 cards">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/4-3rd.png" alt="">
+                                <div class="cardTxt">
+                                    <h5 class="m-0">SHYAM NARAYAN PRASAD</h5>
+                                    <p class="AboutSaree">Navy Blue & Red Thread Embroidered Anarkali Set</p>
+                                    <div class="price d-flex align-items-center gap-2">
+                                        <span class="currentPrice">&#8377 15,500</span>
+                                        <span class="previousPrice"><del>&#8377 23500</del></span>
+                                        <span class="DisOn">35% OFF</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card1 cards">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/5-1st.png" alt="">
+                                <div class="cardTxt">
+                                    <h5 class="m-0">SHYAM NARAYAN PRASAD</h5>
+                                    <p class="AboutSaree">Navy Blue & Red Thread Embroidered Anarkali Set</p>
+                                    <div class="price d-flex align-items-center gap-2">
+                                        <span class="currentPrice">&#8377 15,500</span>
+                                        <span class="previousPrice"><del>&#8377 23500</del></span>
+                                        <span class="DisOn">35% OFF</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card1 cards">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/5-2nd.png" alt="">
+                                <div class="cardTxt">
+                                    <h5 class="m-0">SHYAM NARAYAN PRASAD</h5>
+                                    <p class="AboutSaree">Navy Blue & Red Thread Embroidered Anarkali Set</p>
+                                    <div class="price d-flex align-items-center gap-2">
+                                        <span class="currentPrice">&#8377 15,500</span>
+                                        <span class="previousPrice"><del>&#8377 23500</del></span>
+                                        <span class="DisOn">35% OFF</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 paddingMIN   py-5">
+                    <div class="footerTable d-flex   justify-content-evenly">
+                        <div class="aboutus">
+                            <h5>ABOUT US</h5>
+                            <ul class="list-unstyled">
+                                <li>PURPLE STYLE LABS</li>
+                                <li>PERNIA’S POP UP SHOW</li>
+                                <li>STUDIO LOCATOR</li>
+                                <li>THE MAGAZINE</li>
+                                <li>PERNIA’S POP UP BLOG</li>
+                            </ul>
+                        </div>
+                        <div class="quicklinks">
+                            <h5>QUICK LINKS</h5>
+                            <ul class="list-unstyled">
+                                <li>BESTSELLERS</li>
+                                <li>EXCLUSIVE</li>
+                                <li>SALE</li>
+                                <li>GIFT CARDS</li>
+                                <li>CELEBRITY CLOSET</li>
+                                <li>PERSONAL STYLING</li>
+                                <li>OCCASIONS</li>
+                                <li>CLIENT DIARIES</li>
+                            </ul>
+                        </div>
+                        <div class="customercare">
+                            <h5>CUSTOMER CARE</h5>
+                            <ul class="list-unstyled">
+                                <li>SHIPPING INFORMATION</li>
+                                <li>RETURNS & EXCHANGE</li>
+                                <li>TERMS & CONDITIONS</li>
+                                <li>PRIVACY & COOKIE POLICIES</li>
+                                <li>FAQS</li>
+                                <li>SITE MAP</li>
+                            </ul>
+                        </div>
+                        <div class="contactus">
+                            <h5>CONTACT US</h5>
+                            <ul class="list-unstyled">
+                                <li>+91 78478 48484</li>
+                                <li>customercare@perniaspopupshop.com</li>
+                            </ul>
+                            <h5>FOLLOW US</h5>
+                            <div class="sitesContact d-flex align-items-center gap-1">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/facebook.svg" alt="">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/instagram.svg" alt="">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/Path 126351.svg" alt="">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/linkedin.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="popupshop">
+                            <h5>GET PERNIA’S POP-UP SHOP APP</h5>
+                            <ul class="list-unstyled">
+                                <li>We will send you a link on your Email or <br> Phone, open it on your phone and
+                                    <br> download the
+                                    App
+                                </li>
+                            </ul>
+                            <div class="EmailContact d-flex align-items-center gap-2">
+                                <input type="radio" name="EmailContacts" value="M" /><label>Email</label>
+                                <input type="radio" name="EmailContacts" value="F" /><label>Phone</label>
+                            </div>
+                            <div class="EmailAddres d-flex align-items-center my-3 justify-content-between">
+                                <input type="email" placeholder="Email Address">
+                                <p class="m-0">Share App Link</p>
+                            </div>
+                            <div class="appGoogle d-flex align-items-center justify-content-center gap-2">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/Group 50462.svg" alt="">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/Group 50463.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Timings my-5 border-bottom border-top border-2 py-3">
+                        <div class="CustomerSupport d-flex align-items-center justify-content-center">
+                            <div class="textImg d-flex align-items-center gap-3">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/message-icon.svg" alt="">
+                                <div class="customerSupportTxt d-flex flex-column gap-1">
+                                    <span>24 X 7</span>
+                                    <span>CUSTOMER SUPPORT</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Designers d-flex align-items-center justify-content-center">
+                            <div class="txtDesigner d-flex align-items-center gap-3">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/hanger.svg" alt="">
+                                <div class="DesignersTxt d-flex flex-column gap-1">
+                                    <span>500+</span>
+                                    <span>DESIGNERS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="InShipping d-flex align-items-center justify-content-center">
+                            <div class="txtShippingI d-flex align-items-center gap-3">
+                                <img src="./Shoppind_Assets/Shoppind_Assets/aeroplane.svg" alt="">
+                                <div class="interShipping d-flex flex-column gap-1">
+                                    <span>FREE INTERNATIONAL</span>
+                                    <span>SHIPPING*</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="payments">
+                        <div
+                            class="paymentsMethods d-flex flex-column align-items-center justify-content-center border-end ">
+                            <div class="centerDiv d-flex  flex-column gap-2">
+                                <h5 class="m-0">COMPLETELY SAFE AND SECURE PAYMENT METHOD</h5>
+                                <p class="m-0">We accept Netbanking, all major credit cards. We also accept orders with
+                                    cash payment
+                                </p>
+                                <div class="paymentImgs d-flex align-items-center justify-content-center gap-2">
+                                    <img src="./Shoppind_Assets/Shoppind_Assets/visa-card.svg" alt="">
+                                    <img src="./Shoppind_Assets/Shoppind_Assets/master-card.svg" alt="">
+                                    <img src="./Shoppind_Assets/Shoppind_Assets/paypal.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="paymentSignup d-flex flex-column align-items-center justify-content-center">
+                            <div class="centerpyment d-flex flex-column gap-2">
+                                <p class="m-0">Sign up to get exclusive style tips, new arrival udpates and a special
+                                    discount code.
+                                </p>
+                                <div class="pymentInputs d-flex  gap-2 align-items-center justify-content-between">
+                                    <input type="email" placeholder="Here’s my Email">
+                                    <p class="m-0">Sign Up</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 paddingMIN">
+                    <div class="col-6 conss">
+                        <table style="width:100%">
+                            <tr>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Age</th>
+                            </tr>
+                            <tr>
+                                <td>Jill</td>
+                                <td>Smith</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <td>Eve</td>
+                                <td>Jackson</td>
+                                <td>94</td>
+                            </tr>
+                            <tr>
+                                <td>John</td>
+                                <td>Doe</td>
+                                <td>80</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
