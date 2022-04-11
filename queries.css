@@ -1,0 +1,622 @@
+@media(max-width:375px){
+    .LocateTxt,
+    .DescHeader{
+        font-size: 2.2rem;
+    }
+    .ForInr{
+        display: none;
+    }
+    .headerlogo{
+        font-size: 3.5rem;
+        align-self: flex-end;
+    }
+    
+    .searchBar{
+        display: none !important;
+    }
+    .fristContainer{
+        display: flex !important;
+        align-items: flex-end !important;
+        justify-content: end !important;
+        color: black;
+    }
+    .accounts img{
+        width: 3rem;
+    }
+    .accounts{
+        gap: 4rem !important;
+    }
+    .accounts{
+        font-size: 4rem;
+    }
+    .variTies{
+        display: none !important;
+    }
+    .cardsContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .forMedai{
+        display: none !important;
+    }
+    .checkBoxes{
+        font-size: 2.2rem;
+    }
+    .checkBoxes span{
+        font-size: 1.8rem !important;
+    }
+    .for12center{
+        justify-content: center;
+        padding: 2rem 0;
+    }
+    .forEnd{
+        align-items: center;
+    }
+    .LinksHome span{
+        font-size: 2rem;
+    }
+    .products h5{
+        font-size: 5rem;
+    }
+    .ForSup{
+        font-size: 2rem;
+    }
+    .popularProducts select{
+        font-size: 2rem;
+    }
+    .sizesBtns{
+        font-size: 2.3rem;
+        gap: 1rem;
+    }
+    .cardTxt h5{
+        font-size: 3rem;
+    }
+    .cardTxt p{
+        font-size: 2.2rem;
+    }
+    .currentPrice,
+    .previousPrice,
+    .DisOn{
+        font-size: 1.9rem;
+    }
+    .lastcol{
+        display: none !important;
+    }
+    .aboutus h5, .quicklinks h5, .customercare h5, .contactus h5, .popupshop h5 {
+        font-size: 2rem;
+    
+    }
+    .aboutus ul, .quicklinks ul, .customercare ul, .contactus ul, .popupshop ul {
+        font-size: 2.4rem;
+    }
+    .footerTable{
+        grid-template-columns: repeat(2,1fr);
+        padding: 2.3rem;
+    }
+    .popupshop{
+        grid-column: 1/ span2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .EmailContact{
+        display: none !important;
+    }
+    .EmailAddres input{
+        font-size: 2rem;
+        width: 20rem;
+        padding: 1rem;
+    }
+    .EmailAddres p{
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    .mailhide{
+        display: none !important;
+    }
+    .appGoogle img{
+        width: 15rem;
+    }
+ 
+    .textImg img, .txtDesigner img, .txtShippingI img {
+        width: 5rem;
+        height: auto;
+    }
+    .customerSupportTxt span, .DesignersTxt span, .interShipping span {
+        font-size: 2rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    .payments{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .centerDiv h5{
+        font-size: 2.5rem;
+    }
+    .centerpyment p,
+    .centerDiv p{
+        font-size: 2.2rem;
+    }
+    .paymentImgs img{
+        width: 8rem;
+        padding-bottom: 1rem;
+    }
+    .pymentInputs input{
+        font-size: 1.5rem;
+        color: black !important;
+    }
+    .tableCont table, th, td {
+        border: 1px solid black;
+        font-size: 1.5rem;
+        padding: 0.2rem;
+    }
+    
+}
+
+@media(max-width:414px){
+    .LocateTxt,
+    .DescHeader{
+    font-size: 2.2rem;
+    }
+    .ForInr{
+        display: none;
+    }
+    .headerlogo{
+        font-size: 3.5rem;
+        align-self: flex-end;
+    }
+    
+    .searchBar{
+        display: none !important;
+    }
+    .fristContainer{
+        display: flex !important;
+        align-items: flex-end !important;
+        justify-content: end !important;
+        color: black;
+    }
+    .accounts img{
+        width: 3rem;
+    }
+    .accounts{
+        gap: 4rem !important;
+    }
+    .accounts{
+        font-size: 4rem;
+    }
+    .variTies{
+        display: none !important;
+    }
+    .cardsContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .forMedai{
+        display: none !important;
+    }
+    .checkBoxes{
+        font-size: 2.2rem;
+    }
+    .checkBoxes span{
+        font-size: 1.8rem !important;
+    }
+    .for12center{
+        justify-content: center;
+        padding: 2rem 0;
+    }
+    .forEnd{
+        align-items: center;
+    }
+    .LinksHome span{
+        font-size: 2rem;
+    }
+    .products h5{
+        font-size: 5rem;
+    }
+    .ForSup{
+        font-size: 2rem;
+    }
+    .popularProducts select{
+        font-size: 2rem;
+    }
+    .sizesBtns{
+        font-size: 2.3rem;
+        gap: 1rem;
+    }
+    .cardTxt h5{
+        font-size: 3rem;
+    }
+    .cardTxt p{
+        font-size: 2.2rem;
+    }
+    .currentPrice,
+    .previousPrice,
+    .DisOn{
+        font-size: 1.9rem;
+    }
+    .lastcol{
+        display: none !important;
+    }
+    .aboutus h5, .quicklinks h5, .customercare h5, .contactus h5, .popupshop h5 {
+        font-size: 2rem;
+    
+    }
+    .aboutus ul, .quicklinks ul, .customercare ul, .contactus ul, .popupshop ul {
+        font-size: 2.4rem;
+    }
+    .footerTable{
+        grid-template-columns: repeat(2,1fr);
+        padding: 2.3rem;
+    }
+    .popupshop{
+        grid-column: 1/ span2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .EmailContact{
+        display: none !important;
+    }
+    .EmailAddres input{
+        font-size: 2rem;
+        width: 20rem;
+        padding: 1rem;
+    }
+    .EmailAddres p{
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    .mailhide{
+        display: none !important;
+    }
+    .appGoogle img{
+        width: 15rem;
+    }
+ 
+    .textImg img, .txtDesigner img, .txtShippingI img {
+        width: 5rem;
+        height: auto;
+    }
+    .customerSupportTxt span, .DesignersTxt span, .interShipping span {
+        font-size: 2rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    .payments{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .centerDiv h5{
+        font-size: 2.5rem;
+    }
+    .centerpyment p,
+    .centerDiv p{
+        font-size: 2.2rem;
+    }
+    .paymentImgs img{
+        width: 8rem;
+        padding-bottom: 1rem;
+    }
+    .pymentInputs input{
+        font-size: 1.5rem;
+        color: black !important;
+    }
+    .tableCont table, th, td {
+        border: 1px solid black;
+        font-size: 1.5rem;
+        padding: 0.2rem;
+    }
+    
+}
+
+@media(max-width:850px){
+    .LocateTxt,
+    .DescHeader{
+        font-size: 2.2rem;
+    }
+    .ForInr{
+        display: none;
+    }
+    .headerlogo{
+        font-size: 3.5rem;
+        align-self: flex-end;
+    }
+    
+    .searchBar{
+        display: none !important;
+    }
+    .fristContainer{
+        display: flex !important;
+        align-items: flex-end !important;
+        justify-content: end !important;
+        color: black;
+    }
+    .accounts img{
+        width: 3rem;
+    }
+    .accounts{
+        gap: 4rem !important;
+    }
+    .accounts{
+        font-size: 4rem;
+    }
+    .variTies{
+        display: none !important;
+    }
+    .cardsContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .forMedai{
+        display: none !important;
+    }
+    .checkBoxes{
+        font-size: 2.2rem;
+    }
+    .checkBoxes span{
+        font-size: 1.8rem !important;
+    }
+    .for12center{
+        justify-content: center;
+        padding: 2rem 0;
+    }
+    .forEnd{
+        align-items: center;
+    }
+    .LinksHome span{
+        font-size: 2rem;
+    }
+    .products h5{
+        font-size: 5rem;
+    }
+    .ForSup{
+        font-size: 2rem;
+    }
+    .popularProducts select{
+        font-size: 2rem;
+    }
+    .sizesBtns{
+        font-size: 2.3rem;
+        gap: 1rem;
+    }
+    .cardTxt h5{
+        font-size: 3rem;
+    }
+    .cardTxt p{
+        font-size: 2.2rem;
+    }
+    .currentPrice,
+    .previousPrice,
+    .DisOn{
+        font-size: 1.9rem;
+    }
+    .lastcol{
+        display: none !important;
+    }
+    .aboutus h5, .quicklinks h5, .customercare h5, .contactus h5, .popupshop h5 {
+        font-size: 2rem;
+    
+    }
+    .aboutus ul, .quicklinks ul, .customercare ul, .contactus ul, .popupshop ul {
+        font-size: 2.4rem;
+    }
+    .footerTable{
+        grid-template-columns: repeat(2,1fr);
+        padding: 2.3rem;
+    }
+    .popupshop{
+        grid-column: 1/ span2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .EmailContact{
+        display: none !important;
+    }
+    .EmailAddres input{
+        font-size: 2rem;
+        width: 20rem;
+        padding: 1rem;
+    }
+    .EmailAddres p{
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    .mailhide{
+        display: none !important;
+    }
+    .appGoogle img{
+        width: 15rem;
+    }
+ 
+    .textImg img, .txtDesigner img, .txtShippingI img {
+        width: 5rem;
+        height: auto;
+    }
+    .customerSupportTxt span, .DesignersTxt span, .interShipping span {
+        font-size: 2rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    .payments{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .centerDiv h5{
+        font-size: 2.5rem;
+    }
+    .centerpyment p,
+    .centerDiv p{
+        font-size: 2.2rem;
+    }
+    .paymentImgs img{
+        width: 8rem;
+        padding-bottom: 1rem;
+    }
+    .pymentInputs input{
+        font-size: 1.5rem;
+        color: black !important;
+    }
+    .tableCont table, th, td {
+        border: 1px solid black;
+        font-size: 1.5rem;
+        padding: 0.2rem;
+    }
+    
+}
+@media(max-width:950px){
+    .LocateTxt,
+    .DescHeader{
+        font-size: 2.2rem;
+    }
+    .ForInr{
+        display: none;
+    }
+    .headerlogo{
+        font-size: 3.5rem;
+        align-self: flex-end;
+    }
+    
+    .searchBar{
+        display: none !important;
+    }
+    .fristContainer{
+        display: flex !important;
+        align-items: flex-end !important;
+        justify-content: end !important;
+        color: black;
+    }
+    .accounts img{
+        width: 3rem;
+    }
+    .accounts{
+        gap: 4rem !important;
+    }
+    .accounts{
+        font-size: 4rem;
+    }
+    .variTies{
+        display: none !important;
+    }
+    .cardsContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .forMedai{
+        display: none !important;
+    }
+    .checkBoxes{
+        font-size: 2.2rem;
+    }
+    .checkBoxes span{
+        font-size: 1.8rem !important;
+    }
+    .for12center{
+        justify-content: center;
+        padding: 2rem 0;
+    }
+    .forEnd{
+        align-items: center;
+    }
+    .LinksHome span{
+        font-size: 2rem;
+    }
+    .products h5{
+        font-size: 5rem;
+    }
+    .ForSup{
+        font-size: 2rem;
+    }
+    .popularProducts select{
+        font-size: 2rem;
+    }
+    .sizesBtns{
+        font-size: 2.3rem;
+        gap: 1rem;
+    }
+    .cardTxt h5{
+        font-size: 3rem;
+    }
+    .cardTxt p{
+        font-size: 2.2rem;
+    }
+    .currentPrice,
+    .previousPrice,
+    .DisOn{
+        font-size: 1.9rem;
+    }
+    .lastcol{
+        display: none !important;
+    }
+    .aboutus h5, .quicklinks h5, .customercare h5, .contactus h5, .popupshop h5 {
+        font-size: 2rem;
+    
+    }
+    .aboutus ul, .quicklinks ul, .customercare ul, .contactus ul, .popupshop ul {
+        font-size: 2.4rem;
+    }
+    .footerTable{
+        grid-template-columns: repeat(2,1fr);
+        padding: 2.3rem;
+    }
+    .popupshop{
+        grid-column: 1/ span2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .EmailContact{
+        display: none !important;
+    }
+    .EmailAddres input{
+        font-size: 2rem;
+        width: 20rem;
+        padding: 1rem;
+    }
+    .EmailAddres p{
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    .mailhide{
+        display: none !important;
+    }
+    .appGoogle img{
+        width: 15rem;
+    }
+ 
+    .textImg img, .txtDesigner img, .txtShippingI img {
+        width: 5rem;
+        height: auto;
+    }
+    .customerSupportTxt span, .DesignersTxt span, .interShipping span {
+        font-size: 2rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    .payments{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .centerDiv h5{
+        font-size: 2.5rem;
+    }
+    .centerpyment p,
+    .centerDiv p{
+        font-size: 2.2rem;
+    }
+    .paymentImgs img{
+        width: 8rem;
+        padding-bottom: 1rem;
+    }
+    .pymentInputs input{
+        font-size: 1.5rem;
+        color: black !important;
+    }
+    .tableCont table, th, td {
+        border: 1px solid black;
+        font-size: 1.5rem;
+        padding: 0.2rem;
+    }
+    
+}

@@ -273,7 +273,7 @@ body{
     height: 1000vh;
 }
 .footerTable{
-    display: grid;
+    display: grid !important;
     grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr;
 }
 
@@ -421,3 +421,6 @@ input[name="EmailContacts"] {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
+
+
+
